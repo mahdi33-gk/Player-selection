@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const Players = () => {
+    const [players, setPlayers] = useState([])
+    useEffect(()=>{
+        fetch('players.json')
+        .then(res=> res.json())
+        .then(data=> console.log(data))
+    },[])
   return (
-    <div className="flex justify-between items-center">
+    <div>
+        <div className="flex justify-between items-center">
       <div>
         <h1 className="font-bold text-[24px]">Available Players</h1>
       </div>
@@ -14,6 +21,8 @@ const Players = () => {
           </li>
         </ul>
       </div>
+    </div>
+    
     </div>
   );
 };
