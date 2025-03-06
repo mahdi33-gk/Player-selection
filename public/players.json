@@ -1,8 +1,8 @@
 [
     {
       "id": 1,
-      "name": "Virat Kohli",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Virat_Kohli_%28cropped%29.jpg",
+      "name": "Taskin",
+      "image": "https://thereport.live/media/imgAll/2023May/taskin-ahmed-bcb-20240514120250.jpg",
       "price": 2500000,
       "country": "India",
       "category": "Batsman",
@@ -13,7 +13,7 @@
     {
       "id": 2,
       "name": "Ben Stokes",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/5/59/Ben_Stokes_2019.jpg",
+      "image": "https://thereport.live/media/imgAll/2023May/taskin-ahmed-bcb-20240514120250.jpg",
       "price": 1800000,
       "country": "England",
       "category": "All-Rounder",
@@ -24,7 +24,7 @@
     {
       "id": 3,
       "name": "Jasprit Bumrah",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Jasprit_Bumrah_in_2022.jpg",
+      "image": "https://thereport.live/media/imgAll/2023May/taskin-ahmed-bcb-20240514120250.jpg",
       "price": 1500000,
       "country": "India",
       "category": "Bowler",
@@ -35,7 +35,7 @@
     {
       "id": 4,
       "name": "Ellyse Perry",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Ellyse_Perry_%28cropped%29.jpg",
+      "image": "https://thereport.live/media/imgAll/2023May/taskin-ahmed-bcb-20240514120250.jpg",
       "price": 1200000,
       "country": "Australia",
       "category": "All-Rounder",
@@ -46,7 +46,7 @@
     {
       "id": 5,
       "name": "Jos Buttler",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Jos_Buttler_2017.jpg",
+      "image": "https://thereport.live/media/imgAll/2023May/taskin-ahmed-bcb-20240514120250.jpg",
       "price": 2000000,
       "country": "England",
       "category": "Wicket-Keeper Batsman",
@@ -57,7 +57,7 @@
     {
       "id": 6,
       "name": "Kane Williamson",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Kane_Williamson_2015.jpg",
+      "image": "https://thereport.live/media/imgAll/2023May/taskin-ahmed-bcb-20240514120250.jpg",
       "price": 1700000,
       "country": "New Zealand",
       "category": "Batsman",
@@ -68,7 +68,7 @@
     {
       "id": 7,
       "name": "Steve Smith",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Steve_Smith_2023.jpg",
+      "image": "https://thereport.live/media/imgAll/2023May/taskin-ahmed-bcb-20240514120250.jpg",
       "price": 2200000,
       "country": "Australia",
       "category": "Batsman",
@@ -79,7 +79,7 @@
     {
       "id": 8,
       "name": "Babar Azam",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Babar_Azam_2021.jpg",
+      "image": "https://thereport.live/media/imgAll/2023May/taskin-ahmed-bcb-20240514120250.jpg",
       "price": 1900000,
       "country": "Pakistan",
       "category": "Batsman",
@@ -90,7 +90,7 @@
     {
       "id": 9,
       "name": "Kagiso Rabada",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Kagiso_Rabada_2016.jpg",
+      "image": "https://thereport.live/media/imgAll/2023May/taskin-ahmed-bcb-20240514120250.jpg",
       "price": 1600000,
       "country": "South Africa",
       "category": "Bowler",
@@ -101,7 +101,7 @@
     {
       "id": 10,
       "name": "Shakib Al Hasan",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/7/76/Shakib_Al_Hasan_2019.jpg",
+      "image": "https://thereport.live/media/imgAll/2023May/taskin-ahmed-bcb-20240514120250.jpg",
       "price": 1350000,
       "country": "Bangladesh",
       "category": "All-Rounder",
@@ -112,7 +112,7 @@
     {
       "id": 11,
       "name": "Rohit Sharma",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Rohit_Sharma_2023.jpg",
+      "image": "https://thereport.live/media/imgAll/2023May/taskin-ahmed-bcb-20240514120250.jpg",
       "price": 2100000,
       "country": "India",
       "category": "Batsman",
@@ -123,7 +123,7 @@
     {
       "id": 12,
       "name": "Trent Boult",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/3/31/Trent_Boult_2015.jpg",
+      "image": "https://thereport.live/media/imgAll/2023May/taskin-ahmed-bcb-20240514120250.jpg",
       "price": 1450000,
       "country": "New Zealand",
       "category": "Bowler",
@@ -134,7 +134,7 @@
     {
       "id": 13,
       "name": "David Warner",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/1/17/David_Warner_2023.jpg",
+      "image": "https://thereport.live/media/imgAll/2023May/taskin-ahmed-bcb-20240514120250.jpg",
       "price": 1950000,
       "country": "Australia",
       "category": "Batsman",
@@ -145,7 +145,7 @@
     {
       "id": 14,
       "name": "Meg Lanning",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Meg_Lanning_2020.jpg",
+      "image": "https://thereport.live/media/imgAll/2023May/taskin-ahmed-bcb-20240514120250.jpg",
       "price": 950000,
       "country": "Australia",
       "category": "Batsman",
@@ -156,7 +156,7 @@
     {
       "id": 15,
       "name": "Quinton de Kock",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/0/03/Quinton_de_Kock_2016.jpg",
+      "image": "https://thereport.live/media/imgAll/2023May/taskin-ahmed-bcb-20240514120250.jpg",
       "price": 1750000,
       "country": "South Africa",
       "category": "Wicket-Keeper Batsman",
