@@ -3,10 +3,10 @@ import React from "react";
 const Hero = () => {
   return (
     <div
-      className="relative h-screen flex items-center rounded-md justify-center bg-cover bg-center"
+      className="relative h-screen flex items-center rounded-md justify-center bg-cover bg-center mb-9"
       style={{ backgroundImage: "url(/images/bg-shadow.png)" }}
     >
-      <div className="flex flex-col justify-center items-center gap-y-5">
+      <div className="flex flex-col justify-center items-center gap-y-7">
         <img className="border-2 border-dashed" src="/images/banner-main.png" alt="" />
         <h1 className="text-4xl font-bold">Assemble Your Ultimate Dream 11 Cricket Team</h1>
         <h1 className="text-2xl">Beyond Boundaries Beyond Limits</h1>
