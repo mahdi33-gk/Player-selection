@@ -6,11 +6,11 @@ const Hero = () => {
       className="relative h-screen flex items-center rounded-md justify-center bg-cover bg-center"
       style={{ backgroundImage: "url(/images/bg-shadow.png)" }}
     >
-      <div>
-        <img src="/images/banner-main.png" alt="" />
+      <div className="flex flex-col justify-center items-center gap-y-5">
+        <img className="border-2 border-dashed" src="/images/banner-main.png" alt="" />
         <h1 className="text-4xl font-bold">Assemble Your Ultimate Dream 11 Cricket Team</h1>
         <h1 className="text-2xl">Beyond Boundaries Beyond Limits</h1>
-        <button className="btn">Claim Free Credit</button>
+        <button className="btn bg-yellow-200 px-6 py-3 rounded-xl border-2 border-black font-bold">Claim Free Credit</button>
       </div>
     </div>
   );
