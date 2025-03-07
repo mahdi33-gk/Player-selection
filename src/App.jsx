@@ -13,8 +13,9 @@ function App() {
       <Header></Header>
       <Hero></Hero>
       <Players></Players>
-      <Footer></Footer>
+      
       </main>
+      <Footer></Footer>
     </>
   )
 }
