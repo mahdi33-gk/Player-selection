@@ -9,7 +9,7 @@ const Players = () => {
       .then((data) => setPlayers(data));
   }, []);
   return (
-    <div>
+    <div className="pb-10">
       <div className="flex justify-between items-center">
         <div>
           <h1 className="font-bold text-[24px]">Available Players</h1>
@@ -23,7 +23,7 @@ const Players = () => {
           </ul>
         </div>
       </div>
-      <div className="grid grid-cols-4 gap-6">
+      <div className="grid grid-cols-4 gap-6 pb-10">
       {
         players.map(player=> <Player player={player}></Player>)
       }

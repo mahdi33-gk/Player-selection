@@ -1,5 +1,6 @@
 
 import './App.css'
+import Beforefooter from './components/Beforefooter'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Hero from './components/Hero'
@@ -13,6 +14,7 @@ function App() {
       <Header></Header>
       <Hero></Hero>
       <Players></Players>
+      
       
       </main>
       <Footer></Footer>
