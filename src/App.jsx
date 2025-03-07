@@ -18,6 +18,7 @@ function App() {
       
       </main>
       <Footer></Footer>
+      <Beforefooter></Beforefooter>
     </>
   )
 }
