@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaBitcoin } from "react-icons/fa";
 
-const Header = () => {
+const Header = ({money}) => {
     return (
         <div className='flex justify-between pt-2'>
             <div>
@@ -13,7 +13,7 @@ const Header = () => {
                 <p>Teams</p>
                 <p>Schedules</p>
                 <button className='btn border-2 p-2 rounded-xl inline-flex items-center gap-1 font-bold text-2xl'>
-                    <span>0</span> Coin
+                    <span id='main-balance'>{money}</span> Coin
                     <FaBitcoin></FaBitcoin>
                     
                 </button>
