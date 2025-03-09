@@ -2,7 +2,7 @@ import React from "react";
 import { FaUser } from "react-icons/fa";
 import { CiFlag1 } from "react-icons/ci";
 
-const Player = ({ player,addPlayer }) => {
+const Player = ({ player,addPlayer}) => {
   const { name, price, image, country, category, battingHand, bowlingHand } = player;
   return (
     <div className="border-2 border-gray-200 rounded-md px-3 py-1 mt-3">
@@ -27,7 +27,7 @@ const Player = ({ player,addPlayer }) => {
       </div>
       <div className="flex justify-between items-center pb-2">
       <p>Price:${price}</p>
-      <button onClick={addPlayer} className="text-[13px] border-2 px-3 py-1 rounded-md">Choose Player</button>
+      <button onClick={()=>addPlayer()} className="text-[13px] border-2 px-3 py-1 rounded-md">Choose Player</button>
       </div>
     </div>
   );

@@ -14,7 +14,10 @@ function App() {
     setMoney(newMony)
   }
   const [players1, setPlayers] = useState(0)
+
+  
   const addPlayer = () =>{
+
     const newPlayer = players1 + 1;
     setPlayers(newPlayer)
   }
