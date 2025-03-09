@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Players from './components/Players'
+import Plaayeradded from './components/Plaayeradded'
 
 function App() {
   const [money, setMoney] = useState(0)
@@ -19,7 +20,9 @@ function App() {
   const addPlayer = (player) =>{
     const newSelection = [...selectplayer, player]
     setSelectplayer(newSelection)
-    console.log(newSelection)
+    for(let pricce of newSelection ){
+      console.log(pricce.price)
+    }
     const newPlayer = players1 + 1;
     setPlayers(newPlayer)
   }
@@ -30,7 +33,7 @@ function App() {
       <Header money={money}></Header>
       <Hero moneyHandler={moneyHandler}></Hero>
       <Players players1={players1} addPlayer={addPlayer}></Players>
-      
+      <Plaayeradded selectplayer={selectplayer}></Plaayeradded>
       
       </main>
       <Footer></Footer>

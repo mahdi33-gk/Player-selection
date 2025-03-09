@@ -1,9 +1,11 @@
 import React from 'react';
 
-const Plaayeradded = () => {
+const Plaayeradded = ({selectplayer}) => {
+    const {name,image} = selectplayer
     return (
-        <div>
-            
+        <div className='bg-black'>
+            <h1>ok vai lorem3333 {name}</h1>
+            <img src={image} alt="" />
         </div>
     );
 };
