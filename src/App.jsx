@@ -10,7 +10,7 @@ import Players from './components/Players'
 function App() {
   const [money, setMoney] = useState(0)
   const moneyHandler = ()=>{
-    const newMony = money +4000000;
+    const newMony = money + 4000000;
     setMoney(newMony)
   }
   const [players1, setPlayers] = useState(0)
