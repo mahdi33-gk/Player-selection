@@ -20,9 +20,8 @@ function App() {
   const addPlayer = (player) =>{
     const newSelection = [...selectplayer, player]
     setSelectplayer(newSelection)
-    for(let pricce of newSelection ){
-      console.log(pricce.price)
-    }
+    
+    
     const newPlayer = players1 + 1;
     setPlayers(newPlayer)
   }
