@@ -15,9 +15,11 @@ function App() {
   }
   const [players1, setPlayers] = useState(0)
 
-  
-  const addPlayer = () =>{
-
+  const [selectplayer, setSelectplayer] = useState([])
+  const addPlayer = (player) =>{
+    const newSelection = [...selectplayer, player]
+    setSelectplayer(newSelection)
+    console.log(newSelection)
     const newPlayer = players1 + 1;
     setPlayers(newPlayer)
   }
