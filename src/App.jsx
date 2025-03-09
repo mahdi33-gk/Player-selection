@@ -13,14 +13,18 @@ function App() {
   const moneyHandler = ()=>{
     const newMony = money + 4000000;
     setMoney(newMony)
+    setBalance(newMony)
   }
   const [players1, setPlayers] = useState(0)
 
   const [selectplayer, setSelectplayer] = useState([])
+  const [balance, setBalance] = useState(money)
   const addPlayer = (player) =>{
     const newSelection = [...selectplayer, player]
+    const newBalance = balance - player.price
+    setBalance(newBalance)
+    setMoney(newBalance)
     setSelectplayer(newSelection)
-    
     
     const newPlayer = players1 + 1;
     setPlayers(newPlayer)
