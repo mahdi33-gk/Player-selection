@@ -28,7 +28,7 @@ function App() {
       setBalance(newBalance);
       setMoney(newBalance);
       setSelectplayer(newSelection);
-
+      console.log(player)
       const newPlayer = players1 + 1;
       setPlayers(newPlayer);
     }
