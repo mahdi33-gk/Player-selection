@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Players from "./components/Players";
 import Plaayeradded from "./components/Plaayeradded";
+import Savedplayer from "./components/Savedplayer";
 
 function App() {
   const [money, setMoney] = useState(0);
@@ -28,7 +29,7 @@ function App() {
       setBalance(newBalance);
       setMoney(newBalance);
       setSelectplayer(newSelection);
-      console.log(player)
+      
       const newPlayer = players1 + 1;
       setPlayers(newPlayer);
     }
@@ -42,9 +43,11 @@ function App() {
         <Hero moneyHandler={moneyHandler}></Hero>
         <Players players1={players1} addPlayer={addPlayer}></Players>
         <Plaayeradded selectplayer={selectplayer}></Plaayeradded>
+        {selectplayer.map(player => <Savedplayer player={player}></Savedplayer>)}
       </main>
       <Footer></Footer>
       <Beforefooter></Beforefooter>
+      
       
     </>
   );
