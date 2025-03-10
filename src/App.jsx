@@ -37,6 +37,7 @@ function App() {
   return (
     <>
       <main className="w-10/12 mx-auto">
+      <Toaster />
         <Header money={money}></Header>
         <Hero moneyHandler={moneyHandler}></Hero>
         <Players players1={players1} addPlayer={addPlayer}></Players>
@@ -44,10 +45,7 @@ function App() {
       </main>
       <Footer></Footer>
       <Beforefooter></Beforefooter>
-      <div>
-      <Toaster />
-      <button onClick={() => toast('This is a toast.')}>Create a toast</button>
-    </div>
+      
     </>
   );
 }
