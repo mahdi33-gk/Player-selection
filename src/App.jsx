@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Toaster, toast } from "react-hot-toast";
 import "./App.css";
 import Beforefooter from "./components/Beforefooter";
 import Footer from "./components/Footer";
@@ -19,8 +20,8 @@ function App() {
   const [selectplayer, setSelectplayer] = useState([]);
   const [balance, setBalance] = useState(money);
   const addPlayer = (player) => {
-    if (!balance > player.price) {
-      return alert("not enough money");
+    if (balance < player.price) {
+      return toast.error("not enough money");
     } else {
       const newSelection = [...selectplayer, player];
       const newBalance = balance - player.price;
@@ -43,6 +44,10 @@ function App() {
       </main>
       <Footer></Footer>
       <Beforefooter></Beforefooter>
+      <div>
+      <Toaster />
+      <button onClick={() => toast('This is a toast.')}>Create a toast</button>
+    </div>
     </>
   );
 }
